@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "My Personal App",
+  "name": "This app was developed by personal use",
   "icons": [
     {
       "src": "favicon.ico",
