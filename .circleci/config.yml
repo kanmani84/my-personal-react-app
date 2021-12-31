@@ -9,7 +9,7 @@ orbs:
   node: circleci/node@5.0.0
 
 jobs:
-  test:
+  Build-code:
     executor: node/default
     steps:
       - checkout
@@ -19,6 +19,6 @@ jobs:
       - run: sudo npm install -g npm@latest
       - npm-run: build
 workflows:
-  test_my_app:
+  Build-my-app:
     jobs:
-      - test
+      - Build-code
